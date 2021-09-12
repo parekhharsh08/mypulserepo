@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="@dimen/_20sdp"
+    android:paddingEnd="@dimen/_20sdp"
+    android:background="@color/colorPrimary"
+    android:layout_marginTop="@dimen/_20sdp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Photo"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:padding="14dp"
+        />
+
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+        android:id="@+id/dialog_camera"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:padding="14dp"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gallery"
+        android:id="@+id/dialog_gallery"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:padding="14dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancle"
+        android:id="@+id/dialog_cancle"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:padding="14dp"
+        />
+
+
+
+</LinearLayout>

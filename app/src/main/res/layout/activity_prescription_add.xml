@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_15sdp"
+    tools:context=".PrescriptionAdd"
+    android:orientation="vertical">
+
+
+    <Button
+        android:layout_width="@dimen/_160sdp"
+        android:layout_height="wrap_content"
+        android:text="Upload Prescription"
+        android:layout_gravity="center"
+        android:background="@drawable/logout_button"
+        android:backgroundTint="@color/primaryTextColor"
+        android:textSize="@dimen/_12sdp"
+        android:textColor="@color/white"
+        android:id="@+id/clickphoto"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_270sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:scaleType="fitXY"
+        android:id="@+id/imagepic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remark:"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textSize="@dimen/_13sdp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/sent_P"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_13sdp"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:background="@drawable/custom_button"
+        android:text="Sent"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
